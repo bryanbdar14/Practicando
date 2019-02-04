@@ -1,0 +1,254 @@
+*{
+    margin:0px;
+    padding:0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+.cuerpo{
+    color:#797979;
+    background:#f1f2f7;
+}
+.contenedor{
+    z-index:1;
+    position:fixed;
+    left: 0;
+    right: 0;
+}
+.contenedor nav ul p span#triple{
+    cursor:pointer;
+    font-size:17px;
+    display:inline-block;
+    margin-top:10px;
+
+}
+.contenedor nav ul#letras{
+    font-size:21px;
+    color:#2e2e2e;
+    cursor:pointer;
+    display:inline-block;
+    padding-top:10px;
+    padding-left:0px;
+    padding-top:23px;
+}
+.contenedor nav ul#letras span{
+    color:#FF6C60;
+    display:inline-block;
+}
+.contenedor nav ul#campana{
+    cursor:pointer;
+    display:inline-block;
+    font-size:18px;
+    position:fixed;
+    margin-top:15px;
+    border:1px solid #f0f0f8 !important;
+    margin-left:40px;
+    padding:2px 4px;
+    height:29px;
+    padding-top:4px;
+}
+.contenedor nav ul p.dropdown{
+    color:#666666;
+    cursor:pointer;
+    display:inline-block;
+    top:15px;
+    border:1px solid #f0f0f8 !important;
+    padding:2px 4px;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-left:2px;
+}
+.contenedor nav ul ul.dropdown-menu{
+    top:58px;
+}
+.sidebar{
+    position:fixed;/*Posicion fija*/
+    top:61px;
+    width:240px;
+    height:100%;
+    background:#2a3542;
+}
+.sidebar ul {
+    list-style: none;
+}
+.sidebar ul li{
+    padding:5px 10px;
+    list-style:none;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color:#aeb2b7;
+    padding:10px 10px;
+    display:block;/*muy importante para verse mejor*/
+}
+.sidebar ul li:hover{
+    background:#324152;
+    color:#fff;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border: 0px solid #000000;
+}
+.sidebar ul li a:hover span{
+    color:#FF6C60;
+}
+.sidebar ul li ul{
+    display:none;
+}
+.sidebar ul li.activado {
+    background:#324152;
+}
+.sidebar ul li.activado span.glyphicon{
+    color:#FF6C60;
+}
+.descripcion{
+    margin-left:240px;
+    position:absolute;
+    top:80px;
+}
+.borde{
+    border-radius: 2px 2px 0px 0px;
+    -moz-border-radius: 2px 2px 0px 0px;
+    -webkit-border-radius: 2px 2px 0px 0px;
+    border: 0px solid #000000;
+}
+.descripcion div div header{
+    height: 101px;
+}
+.descripcion div div header ul li{
+    background:#fff;
+    border-bottom:1px solid #e3e3e9 !important;
+    padding-left:20px;
+    font-size:14px;
+    color:#797979;
+} 
+.descripcion div div header ul li.date1{
+    font-size:16px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-family:'Open Sans', sans-serif;
+}
+.descripcion div div header ul li.date1 span{
+    padding-right:15px;
+    cursor:pointer;
+}
+.descripcion div div header ul li.date2{
+    padding-left:100px;
+    padding-top:38px;
+    padding-bottom:20px;
+    font-size:18px;
+    color:#39b5aa;
+}
+.descripcion div div div table.first-table{
+    margin-top:50px;
+}
+.descripcion div div div table.first-table tbody tr td{
+    font-size:14px;
+    color:#797979;
+    font-family: 'Open Sans', sans-serif;
+}
+.descripcion div div div table.first-table tbody tr{
+    background:#fff;
+    cursor:pointer;
+}
+.descripcion div div div table.first-table tbody tr a {
+    color:#c7cbd4;
+}
+.descripcion div div div table.first-table tbody tr a:hover {
+    color:#39b5aa;
+}
+.descripcion div div div table.first-table tbody tr td.columna1first{
+    width:36px;
+    font-size:18px;
+    padding-left:20px;
+}
+.descripcion div div div table.first-table tbody tr td.columna2first{
+    width:126px;
+}
+.descripcion div div div table.first-table tbody tr td.columna3first{
+    padding-left:20px;
+}
+.descripcion div div div.tabla2{
+    background: #fff;
+}
+.descripcion div div div.tabla2 li{
+    list-style:none;
+    font-family: 'Open Sans', sans-serif;
+    font-size:18px;
+    padding-left:20px;
+    padding-top:15px;
+    padding-bottom:25px;
+}
+.descripcion div div div.tabla2{
+    padding-left:20px;
+    padding-right:20px;
+}
+.descripcion div div div.tabla2 div table thead tr th{
+    height:40px;
+    width:120px;
+}
+.descripcion div div div.tabla2 div table tbody tr td{
+    height:70px;
+    padding-top:20px;
+}
+.descripcion div div div.tabla2 div table tbody tr td.especial{
+    padding-top:10px;
+}
+.descripcion div div ul.cabezera{
+    background:#fcf8e3;
+    color:#c09853;
+    font-size:16px;
+    padding-top:10px;
+    padding-left:20px;
+    padding-bottom:10px;
+    margin-bottom:0px;
+}
+.descripcion div div ul.cuerpo{
+    background:#fff;
+}
+.descripcion div div ul li{
+    list-style:none;
+}
+.descripcion div div ul.cuerpo ul ul.cabe1{
+    color:#f77b6f;
+    padding-left:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:15px;
+}
+.descripcion div div ul.cuerpo ul ul.cabe1 a span{
+    padding-right:10px;
+    color:#667fa0;
+    font-size:12px;
+}
+.descripcion div div ul.cuerpo ul ul.cabe1 a:hover span{
+    color:#333;
+}
+.descripcion div div ul.cuerpo ul ul.cabe2 {
+    padding-left:45px;
+    padding-right:20px;
+}
+.descripcion div div ul.cuerpo ul ul.cabe2 li {
+   font-size:15px;
+   padding-bottom:15px;
+}
+.descripcion div li.texto{
+    background:#5b6e84;
+    padding-top:10px;
+    padding-bottom:10px;
+    list-style:none;
+    color:#fff;
+}
+.descripcion div.complet{
+    padding-left:0px;
+    padding-right:0px;
+}
+.descripcion div div div table.mejorado{
+    margin-top:-60px;
+}
+.cuerpo div.arreglado{
+    margin-left:0px;
+}
